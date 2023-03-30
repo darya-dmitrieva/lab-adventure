@@ -1,0 +1,207 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: auto;
+}
+#main, footer {
+	max-width: 980px;
+	margin: auto;
+}
+footer {
+	text-align: center;
+}
+
+/* Баннер */
+#ban {
+	max-width: 1100px;
+	margin: auto;
+}
+#banner {
+    width: 100%;
+}
+
+
+.video {
+	margin: auto;
+	text-align: center;
+}
+
+p, b {
+	font-family: 'Merriweather', serif;
+	font-size: 17px;
+	color: #465457;
+}
+
+td {
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	color: #465457;
+	text-align: center;
+}
+
+#hike {
+    width: 300px; 
+    border: 3px;
+    margin: auto; 
+ }
+
+ .img {
+    width: 250px;
+    height: 250px;
+}
+
+.advantages {
+    width: 64px;
+    height: 64px;
+}
+
+#advantages {
+    margin: auto; 
+}
+
+#belief {
+    font-style: italic;
+    font-weight: 800px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.photo {
+    width: 250px;
+    height: 200px;
+  }
+
+/* Шапка сайта */
+.header {
+	height: 87px;
+	background-color: white;
+	width: 100%;
+	margin: auto;
+  }
+.col-12 {
+   max-width: 1170px;
+   width: 100%;
+   min-width: 1170px;
+   margin: 0 auto;
+  }
+.logo {
+	float: left;
+	margin-top: 25px;
+	width: 400;
+	height: 300;
+}
+.nav {
+	float: right;
+	margin-top: 39px;
+}
+.nav li {
+	color: #c5c5c5;
+	font-size: 15px;
+	text-transform: uppercase; /*Верхний регист*/
+	float: left;
+	list-style: none; /*Удаляем маркеры*/
+	margin-left: 38px;
+}
+.nav li span {
+	color: #ffcc01;
+}
+  .nav li a {
+	text-decoration: none; /*Убираем подчеркивание*/
+	color: inherit; /*Наследуем от родителя*/
+}
+.nav li a:hover {
+	color: #ffcc01;
+}
+
+
+  /* Заголовки */
+h1, h2 {
+	font-family: 'Merriweather', serif;
+	font-size: 26px;
+	letter-spacing: 1px; /*Определяем интервал между символами*/
+	max-width: 400px;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	color: #465457;
+}
+
+h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	max-width: 800px;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	color: #465457;
+}
+.d1 h1 {
+	padding-bottom: 10px; /*значение поля от нижнего края содержимого элемента*/
+	border-bottom: 2px solid #E5EDEA; /*установливаем толщину, стиль и цвет границы внизу элемента*/
+}
+.d1 h1:after {
+	content: "";
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+	width: 30%;
+	height: 4px;
+	background: #ffcc01;
+  }
+
+.d2 h2 {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #E5EDEA; 
+  }
+.d2 h2:after {
+	content: "";
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+	width: 30%;
+	height: 4px;
+	background: #ffcc01;
+  }
+  .d2 h3 {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #E5EDEA; 
+  }
+.d2 h3:after {
+	content: "";
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+	width: 30%;
+	height: 4px;
+	background: #ffcc01;
+  }
+
+
+  /* Форма */
+   form {
+	background: #fff;
+	margin: 80px auto;
+	width: 400px;
+	padding: 50px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .2); /*тень*/
+  }
+
+  input {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border: none;
+	border-bottom: 1px solid #757575;
+	margin-bottom: 40px;
+	outline: none;
+	}
+	  
+ 
+  
+  
